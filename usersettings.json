@@ -1,0 +1,66 @@
+{
+"python.formatting.provider": "yapf",
+"python.pythonPath": "C:\\Users\\xxxxxxxx\\Documents\\_Never Backup\\MyApps\\WinPython\\python-3.6.5.amd64",
+"team.showWelcomeMessage": false,
+"workbench.colorTheme": "Monokai",
+"workbench.colorCustomizations": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "editor.lineHighlightBackground": "#000000",
+    "editor.selectionHighlightBackground": "#FF000088",
+    "editor.findMatchBackground": "#0000FF88",
+    "editor.findMatchHighlightBackground": "#00FF0088",
+    "editor.findRangeHighlightBackground": "#00000088",
+    "editor.selectionBackground": "#e2131388",
+    "editor.inactiveSelectionBackground": "#30303088"
+},
+//"remotefs.remote": {
+//    "dev": {
+//    "scheme": "sftp", 
+//    "host": ".northcentralus.cloudapp.azure.com",
+//    "port": 1234,
+//    "username": "azureuser",
+//    "password": "",
+//    "rootPath": "/home/azureuser/ansible/azurerm", 
+//    "connectTimeout": 10000
+//  }
+//},
+"sshfs.configs": [
+    {
+        "name": "sonarlinux",
+        "label": "SonarLinuxVM",
+        "root": "/home/azureuser/ansible",
+        "host": "xxxx.northcentralus.cloudapp.azure.com",
+        "port": 22,
+        "username": "azureuser",
+        "password": true
+    }
+],
+"shellLauncher.shells.windows": [
+      {
+        "shell": "C:\\Users\\xxxx\\Documents\\babun\\.babun\\cygwin\\bin\\bash.exe",
+        "args": ["/bin/xhere", "/bin/zsh"],
+        "label": "zsh"
+      },
+      {
+        "shell": "C:\\Users\\xxxx\Documents\\cygwin\\bin\\mintty.exe",
+        "args": ["/bin/xhere", "/bin/mintty.exe", "-"],
+        "label": "Bash"
+      },
+      {
+        "shell": "C:\\Users\\xxxx\Documents\\cygwin\\bin\\bash.exe",
+        "args": ["/bin/xhere", "/bin/zsh"],
+        "label": "cygwinzsh"
+      }     
+    ],
+    "terminal.integrated.shell.windows": "C:\\Users\\xxxx\\Documents\\cygwin\\bin\\bash.exe",
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1"
+    },
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+        "-i"
+    ],
+    "git.path": "C:\\Users\\xxxx\\Documents\\cygwin\\bin\\git.exe"
+}
+
